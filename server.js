@@ -17,5 +17,6 @@ app.get('/', (req, res) => {
 })
 
 app.use('/user', controllers.user)
+app.use('/challenges', controllers.challenges)
 
 app.listen(PORT, () => console.log('listening on PORT ' + PORT))
