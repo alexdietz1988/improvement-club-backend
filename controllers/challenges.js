@@ -16,3 +16,5 @@ router.get('/', async (req, res) => {
         return res.json({ success: false, error })
     }
 })
+
+module.exports = router
